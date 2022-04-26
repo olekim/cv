@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Inputs</title>
+  </head>
+  <body>
+    <label>Name</label>
+    <input type="text" name="name" id="name"><br>
+    <br>
+        <input type="submit" name="" >
+        <br>
+        <p>
+        <label>Choose File</label>
+        <input type="file" name="avatar" id="avatar" accept="image/png,image/jpeg"="">
+        </p>
+    <p>
+    <label>Start date:</label>
+    <input type="date" name="trip-start" value="2018-07-22" min="2018-01-01"max="2018-12-31">
+    </p>
+
+    <label for="end">End date:</label>
+
+      <input type="date" id="end" name="trip-end" value="2018-12-22" min="2018-07-22" max="2018-12-31">
+  <!--Radio Buttons-->
+  <fieldset>
+    <legend>Select Your Favorite Fruits</legend>
+    <div>
+      <input type="radio" id="oranges" name="fruit" value="oranges" checked>
+      <label for="oranges">Oranges</label>
+    </div>
+
+    <div>
+      <input type="radio" id="mangoes" name="fruit" value="mangoes">
+      <label for="mangoes">Mangoes</label>
+    </div>
+
+    <div>
+      <input type="radio" id="apples" name="fruit" value="apples">
+      <label for="apples">Apples</label>
+    </div>
+  </fieldset>
+  <hr>
+  <p>Audio Settings:</p>
+
+  <div>
+    <input type="range" name="volume" id="volume" min="0" max="11">
+    <label for="volume">Volume</label>
+  </div>
+
+  <div>
+    <input type="range" name="cowbell" id="cowbell" min="0" max="100" value="90"step="10">
+    <label for="cowbell">cowbell</label>
+  </div>
+
+  <!--Check Boxes-->
+  <fieldset>
+    <legend>Choose Eagle's Features </legend>
+    <div>
+      <input type="checkbox" name="scales" id="scales" checked>
+      <label for="scales">Scales</label>
+    </div>
+    <div>
+      <input type="checkbox" name="falons" id="falons">
+      <label for="falons">Falons</label>
+    </div>
+    <div>
+
+    </div>
+  </fieldset>
+  <h3>Summary of Inputs</h3>
+<input type="text">  <br>
+<input type="submit"> <br>
+<input type="file"><br>
+<input type="date"><br>
+<input type="radio"><br>
+<input type="range"><br>
+
+  </body>
+</html>
